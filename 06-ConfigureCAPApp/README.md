@@ -115,10 +115,10 @@ In this how to guide, you will clone an existing CAP application in SAP Business
 
    ![github actions](./images/github-act-1.png)
 
-2. To Schedule the workflow uncomment the **Schedule** and **Cron**  and also specify the required  **Cron Expression** 
+2. To Schedule the workflow uncomment the **Schedule** and **Cron** entries and also specify the required  **Cron Expression**.
 
-3. It can also be made with **Push** and **Pull Requests**
+> The workflow can also be triggered on **Push** events and **Pull Requests**.
+
+3. Enter the **username** and **email** to push the GitHub commits after dependency updates.
 
    ![github actions](./images/github-act-2.png)
-
-4. Enter the **username** and **email** to push the GitHub commits after Dependency update .
